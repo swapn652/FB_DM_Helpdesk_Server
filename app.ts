@@ -1,8 +1,8 @@
 import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
-import userRoutes from "../routes/user/user_auth";
+import userRoutes from "./routes/user/user_auth";
 
-const PORT: number = 8000;
+const PORT = process.env.PORT || 8000;
 const app: Application = express();
 
 app.use(express.json());
