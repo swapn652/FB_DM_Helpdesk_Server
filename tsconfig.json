@@ -7,8 +7,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "outDir": "./build",  // Use "./build" for clarity
+    "outDir": "./build",  
     "types": ["node", "express"]
   },
-  "include": ["src/**/*", "routes/**/*"]
+  "include": ["src/**/*", "routes/**/*", "*"]
 }

@@ -2,7 +2,7 @@ import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
 import userRoutes from "./routes/user/user_auth";
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 const app: Application = express();
 
 app.use(express.json());
